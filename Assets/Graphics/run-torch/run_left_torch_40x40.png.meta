@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 52cfe24b971db4e21a371c4a265544af
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: run_left_torch_40x40_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: 20}
+        - {x: -16, y: 15}
+        - {x: -16, y: 1}
+        - {x: -6, y: -12}
+        - {x: 7, y: -12}
+        - {x: 9, y: -12}
+        - {x: 9, y: 12}
+        - {x: 3, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c479371d9e3d4c24978b48cdf85be18
+      internalID: 945086821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_left_torch_40x40_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 20}
+        - {x: -12, y: 20}
+        - {x: -15, y: 19}
+        - {x: -15, y: 7}
+        - {x: -12, y: -2}
+        - {x: -5, y: -12}
+        - {x: 2, y: -12}
+        - {x: 8, y: -12}
+        - {x: 9, y: -9}
+        - {x: 9, y: 6}
+        - {x: 6, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068bc217f587d4ca7a37604594b05ee0
+      internalID: -1833716787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_left_torch_40x40_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -2}
+        - {x: -6, y: -12}
+        - {x: 4, y: -12}
+        - {x: 10, y: -11}
+        - {x: 10, y: 2}
+        - {x: 8, y: 10}
+        - {x: -2, y: 20}
+        - {x: -11, y: 20}
+        - {x: -14, y: 18}
+      - - {x: 2, y: 15}
+        - {x: 5, y: 16}
+        - {x: 5, y: 19}
+        - {x: 2, y: 20}
+        - {x: 0, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878662f9779b646e28bcecd2de73586c
+      internalID: -1634800064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_left_torch_40x40_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 20}
+        - {x: -15, y: 0}
+        - {x: -6, y: -12}
+        - {x: 2, y: -12}
+        - {x: 7, y: -12}
+        - {x: 10, y: -9}
+        - {x: 10, y: 5}
+        - {x: 6, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725746b6403364515831008b8c9c5b1f
+      internalID: 572322358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_left_torch_40x40_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: 20}
+        - {x: -14, y: -2}
+        - {x: -5, y: -12}
+        - {x: 4, y: -12}
+        - {x: 8, y: -12}
+        - {x: 9, y: -8}
+        - {x: 9, y: 6}
+        - {x: 6, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81939a18986740bb9aa7225e94790ed
+      internalID: 1809002794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_left_torch_40x40_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 20}
+        - {x: -15, y: 9}
+        - {x: -15, y: 0}
+        - {x: -6, y: -12}
+        - {x: 0, y: -12}
+        - {x: 7, y: -12}
+        - {x: 10, y: -11}
+        - {x: 10, y: 11}
+        - {x: 0, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfa65e68424c4980ae3345e04e41b9a
+      internalID: 168264145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      run_left_torch_40x40_0: 945086821
+      run_left_torch_40x40_1: -1833716787
+      run_left_torch_40x40_2: -1634800064
+      run_left_torch_40x40_3: 572322358
+      run_left_torch_40x40_4: 1809002794
+      run_left_torch_40x40_5: 168264145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
