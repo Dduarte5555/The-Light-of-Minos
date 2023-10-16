@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Player_movement : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Player_movement : MonoBehaviour
 
     public Rigidbody2D rb;
     public Camera cam;
+    public Light2D Light;
     
     Vector2 movement;
     Vector2 mousePos;
@@ -27,5 +29,14 @@ public class Player_movement : MonoBehaviour
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = angle;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("labareda"))
+        {
+            other.gameObject.SetActive(false);
+            Light.intensity = 1;
+        }
     }
 }
