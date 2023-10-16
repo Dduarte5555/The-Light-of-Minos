@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Shooting : MonoBehaviour
 {
 
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public Light2D Light;
 
     public float bulletForce = 20f;
 
@@ -15,6 +17,7 @@ public class Shooting : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1"))
         {
+            Light.intensity = Light.intensity - 0.1f;
             Shoot();
         }
     }
