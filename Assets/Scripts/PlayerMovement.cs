@@ -1,18 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 
-public class Player_movement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-
     public Rigidbody2D rb;
     public Camera cam;
-    public Light2D Light;
-    
+
+    private PlayerLightManager lightManager;
+
     Vector2 movement;
     Vector2 mousePos;
+    private bool isColliding = false;
+
+    void Start()
+    {
+        lightManager = GetComponent<PlayerLightManager>();
+        lightManager.InitializeLight();
+    }
 
     void Update()
     {
@@ -29,14 +35,22 @@ public class Player_movement : MonoBehaviour
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = angle;
+
+        isColliding = false;
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("labareda"))
+        if (isColliding)
+        {
+            return;
+        }
+
+        if (other.gameObject.CompareTag("labareda"))
         {
             other.gameObject.SetActive(false);
-            Light.intensity = 1;
+            lightManager.IncreaseLight(0.1f);
+            isColliding = true;
         }
     }
 }

@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &12360582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 212324960}
+    m_Modifications:
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8478463978813556095, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+      propertyPath: m_Name
+      value: Labareda (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
 --- !u!1 &212324959
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,8 +210,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7909736937753439386}
+  - {fileID: 485111684}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &485111684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818907408679863684, guid: 8aa2347802ada364aa86aa68a92d7d49, type: 3}
+  m_PrefabInstance: {fileID: 12360582}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +516,7 @@ GameObject:
   - component: {fileID: 570327429}
   - component: {fileID: 570327430}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: PlayerLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -513,7 +576,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 1
-  m_PointLightOuterRadius: 1
+  m_PointLightOuterRadius: 5
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -537,6 +600,8 @@ GameObject:
   - component: {fileID: 1787984460}
   - component: {fileID: 1787984461}
   - component: {fileID: 1787984462}
+  - component: {fileID: 1787984463}
+  - component: {fileID: 1787984464}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -655,7 +720,6 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 1787984460}
   cam: {fileID: 519420031}
-  Light: {fileID: 570327430}
 --- !u!114 &1787984462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -670,8 +734,68 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2067691001}
   bulletPrefab: {fileID: 7457493429075010394, guid: a5e6f68e28b0d324e87f0f7717b050ec, type: 3}
-  Light: {fileID: 570327430}
   bulletForce: 20
+--- !u!114 &1787984463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787984455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fd684f2b11f2741968929c2017ab53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLight: {fileID: 570327430}
+  initialIntensity: 1
+  intensityDecrease: 0.1
+  minIntensity: 0
+--- !u!61 &1787984464
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787984455}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1865555049
 GameObject:
   m_ObjectHideFlags: 0
