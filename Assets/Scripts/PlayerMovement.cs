@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -13,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 movement;
     Vector2 mousePos;
+    private bool isColliding = false;
 
     void Start()
     {
@@ -35,14 +35,23 @@ public class PlayerMovement : MonoBehaviour
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = angle;
+
+        isColliding = false;
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("labareda"))
+        if (isColliding)
         {
+            return;
+        }
+
+        if (other.gameObject.CompareTag("labareda"))
+        {
+            Debug.Log("HIT");
             other.gameObject.SetActive(false);
-            lightManager.IncreaseLight(1);
+            lightManager.IncreaseLight(0.1f);
+            isColliding = true;
         }
     }
 }
