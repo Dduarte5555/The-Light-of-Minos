@@ -8,12 +8,7 @@ public class PlayerLightManager : MonoBehaviour
     public float intensityDecrease = 0.1f;
     public float minIntensity = 0.0f;
 
-    private float initialOuterRadius;
-
-    private void Start()
-    {
-        initialOuterRadius = playerLight.pointLightOuterRadius;
-    }
+    private float initialOuterRadius = 5f;
 
     public void InitializeLight()
     {
