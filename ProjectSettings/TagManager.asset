@@ -6,6 +6,7 @@ TagManager:
   tags:
   - labareda
   - Enemy
+  - EnemyMaster
   layers:
   - Default
   - TransparentFX

@@ -54,7 +54,13 @@ public class PlayerMovement : MonoBehaviour
             isColliding = true;
         }
 
-        if (other.gameObject.CompareTag("Enemy"))
+        else if (other.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene(0);
+            isColliding = true;
+        }
+
+        else if (other.gameObject.CompareTag("EnemyMaster"))
         {
             SceneManager.LoadScene(0);
             isColliding = true;
