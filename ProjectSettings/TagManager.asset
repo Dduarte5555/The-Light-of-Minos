@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - labareda
+  - Enemy
   layers:
   - Default
   - TransparentFX
