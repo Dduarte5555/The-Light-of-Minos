@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -50,6 +51,18 @@ public class PlayerMovement : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             lightManager.IncreaseLight(0.1f);
+            isColliding = true;
+        }
+
+        else if (other.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene(0);
+            isColliding = true;
+        }
+
+        else if (other.gameObject.CompareTag("EnemyMaster"))
+        {
+            SceneManager.LoadScene(0);
             isColliding = true;
         }
     }
