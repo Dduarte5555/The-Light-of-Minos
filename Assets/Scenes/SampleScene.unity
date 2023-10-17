@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 570327429}
   - component: {fileID: 570327430}
   m_Layer: 0
-  m_Name: Light 2D
+  m_Name: PlayerLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 1
-  m_PointLightOuterRadius: 1
+  m_PointLightOuterRadius: 5
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -537,6 +537,7 @@ GameObject:
   - component: {fileID: 1787984460}
   - component: {fileID: 1787984461}
   - component: {fileID: 1787984462}
+  - component: {fileID: 1787984463}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -655,7 +656,6 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 1787984460}
   cam: {fileID: 519420031}
-  Light: {fileID: 570327430}
 --- !u!114 &1787984462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -670,8 +670,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2067691001}
   bulletPrefab: {fileID: 7457493429075010394, guid: a5e6f68e28b0d324e87f0f7717b050ec, type: 3}
-  Light: {fileID: 570327430}
+  lightManager: {fileID: 1787984463}
   bulletForce: 20
+--- !u!114 &1787984463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787984455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fd684f2b11f2741968929c2017ab53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLight: {fileID: 570327430}
+  initialIntensity: 1
+  intensityDecrease: 0.1
+  minIntensity: 0
 --- !u!1 &1865555049
 GameObject:
   m_ObjectHideFlags: 0

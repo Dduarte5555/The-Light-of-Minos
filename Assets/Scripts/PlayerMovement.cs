@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-public class Player_movement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-
     public Rigidbody2D rb;
     public Camera cam;
-    public Light2D Light;
-    
+
+    private PlayerLightManager lightManager;
+
     Vector2 movement;
     Vector2 mousePos;
+
+    void Start()
+    {
+        lightManager = GetComponent<PlayerLightManager>();
+        lightManager.InitializeLight();
+    }
 
     void Update()
     {
@@ -36,7 +42,7 @@ public class Player_movement : MonoBehaviour
         if(other.gameObject.CompareTag("labareda"))
         {
             other.gameObject.SetActive(false);
-            Light.intensity = 1;
+            lightManager.IncreaseLight(1);
         }
     }
 }
