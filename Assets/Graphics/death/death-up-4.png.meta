@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 5a8f228153b17964480eafd6a52917d2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: death-up-4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 15}
+        - {x: -7, y: 11}
+        - {x: -7, y: -4}
+        - {x: -5, y: -11}
+        - {x: 10, y: -11}
+        - {x: 12, y: -3}
+        - {x: 12, y: 8}
+        - {x: 9, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5032d4bfa807e4fa2ba0f8984183bf
+      internalID: 1992014876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death-up-4_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 15}
+        - {x: -10, y: 13}
+        - {x: -10, y: -3}
+        - {x: -8, y: -9}
+        - {x: -5, y: -11}
+        - {x: 5, y: -11}
+        - {x: 9, y: -7}
+        - {x: 9, y: 13}
+        - {x: 4, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dc99936adaa194d88a618e5a66fd4d
+      internalID: -624711641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death-up-4_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 13}
+        - {x: -6, y: 13}
+        - {x: -11, y: 11}
+        - {x: -11, y: -6}
+        - {x: -8, y: -11}
+        - {x: 6, y: -11}
+        - {x: 8, y: -5}
+        - {x: 8, y: 2}
+        - {x: 7, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: da623be47123763428910699f93bf6c7
+      internalID: 909916907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death-up-4_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: 10}
+        - {x: -2, y: 10}
+        - {x: -7, y: 8}
+        - {x: -7, y: -9}
+        - {x: -4, y: -12}
+        - {x: 8, y: -12}
+        - {x: 12, y: -11}
+        - {x: 12, y: -1}
+        - {x: 11, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f721f2431e7e594db13fdb7f78c12e2
+      internalID: -2026244659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death-up-4_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -5}
+        - {x: -9, y: -12}
+        - {x: 7, y: -12}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+        - {x: 7, y: 7}
+        - {x: 5, y: 10}
+        - {x: -6, y: 10}
+        - {x: -11, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a9f6314c5d840479deb2bcfebaabd9
+      internalID: -6627040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death-up-4_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: 9}
+        - {x: -12, y: 1}
+        - {x: -11, y: -12}
+        - {x: 7, y: -12}
+        - {x: 7, y: -4}
+        - {x: 7, y: 4}
+        - {x: 3, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0a8b099b6405240a9d30156bd80368
+      internalID: 1189764862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death-up-4_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: 10}
+        - {x: -13, y: 3}
+        - {x: -13, y: -7}
+        - {x: -11, y: -12}
+        - {x: 5, y: -12}
+        - {x: 6, y: 3}
+        - {x: 2, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bf2d48158c427419c3e9c114a0db57
+      internalID: -737103230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death-up-4_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 12}
+        - {x: -15, y: 3}
+        - {x: -15, y: -10}
+        - {x: -11, y: -12}
+        - {x: 1, y: -12}
+        - {x: 4, y: -4}
+        - {x: 4, y: 10}
+        - {x: 0, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e7ab77dc4891c48b255ec47e0e3f8d
+      internalID: -1118369508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      death-up-4_0: 1992014876
+      death-up-4_1: -624711641
+      death-up-4_2: 909916907
+      death-up-4_3: -2026244659
+      death-up-4_4: -6627040
+      death-up-4_5: 1189764862
+      death-up-4_6: -737103230
+      death-up-4_7: -1118369508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
