@@ -48,7 +48,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.CompareTag("labareda"))
         {
-            Debug.Log("HIT");
             other.gameObject.SetActive(false);
             lightManager.IncreaseLight(0.1f);
             isColliding = true;

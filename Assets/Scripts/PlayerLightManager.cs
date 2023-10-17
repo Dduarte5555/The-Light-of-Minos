@@ -4,11 +4,18 @@ using UnityEngine.Rendering.Universal;
 public class PlayerLightManager : MonoBehaviour
 {
     public Light2D playerLight;
-    public float initialIntensity = 1f;
-    public float intensityDecrease = 0.1f;
-    public float minIntensity = 0.0f;
+    public float initialIntensity;
+    public float intensityDecrease;
+    public float minIntensity;
 
     private float initialOuterRadius = 5f;
+
+    private void Start()
+    {
+        initialIntensity = 1f;
+        intensityDecrease = 0.1f;
+        minIntensity = 0.15f;
+    }
 
     public void InitializeLight()
     {
@@ -29,5 +36,15 @@ public class PlayerLightManager : MonoBehaviour
     {
         playerLight.intensity += amount;
         playerLight.pointLightOuterRadius = playerLight.intensity * initialOuterRadius;
+    }
+
+    public float GetIntensity()
+    {
+        return playerLight.intensity;
+    }
+
+    public bool CanShoot()
+    {
+        return playerLight.intensity > minIntensity;
     }
 }
