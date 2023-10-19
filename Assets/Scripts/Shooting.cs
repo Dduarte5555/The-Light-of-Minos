@@ -18,7 +18,7 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && lightManager.CanShoot())
         {
             lightManager.DecreaseLight();
             Shoot();
@@ -26,10 +26,6 @@ public class Shooting : MonoBehaviour
     }
     void Shoot()
     {
-        if (!lightManager.CanShoot())
-        {
-            return;
-        }
         
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
