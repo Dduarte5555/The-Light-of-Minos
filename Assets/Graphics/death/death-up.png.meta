@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5a8f228153b17964480eafd6a52917d2
+guid: df3f5e652077ad249afeabf60053046d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,104 +110,103 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: death-up-4_0
+      name: death-up-8_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 40
         height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
       - - {x: -4, y: 15}
         - {x: -7, y: 11}
-        - {x: -7, y: -4}
+        - {x: -7, y: -9}
         - {x: -5, y: -11}
         - {x: 10, y: -11}
-        - {x: 12, y: -3}
+        - {x: 12, y: -8}
         - {x: 12, y: 8}
         - {x: 9, y: 15}
       tessellationDetail: 0
       bones: []
-      spriteID: 9b5032d4bfa807e4fa2ba0f8984183bf
-      internalID: 1992014876
+      spriteID: 35b42adc0752be1469d4a5f4d95bf527
+      internalID: 495421108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death-up-4_1
+      name: death-up-8_1
       rect:
         serializedVersion: 2
         x: 40
         y: 0
         width: 40
         height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
       - - {x: -8, y: 15}
         - {x: -10, y: 13}
-        - {x: -10, y: -3}
-        - {x: -8, y: -9}
-        - {x: -5, y: -11}
-        - {x: 5, y: -11}
-        - {x: 9, y: -7}
+        - {x: -10, y: -9}
+        - {x: -4, y: -11}
+        - {x: 6, y: -11}
+        - {x: 9, y: -8}
         - {x: 9, y: 13}
         - {x: 4, y: 15}
       tessellationDetail: 0
       bones: []
-      spriteID: 91dc99936adaa194d88a618e5a66fd4d
-      internalID: -624711641
+      spriteID: 90cb14eea19a1ee4f88daf9113e0c11e
+      internalID: 1217935373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death-up-4_2
+      name: death-up-8_2
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 40
         height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
       - - {x: 5, y: 13}
         - {x: -6, y: 13}
         - {x: -11, y: 11}
-        - {x: -11, y: -6}
-        - {x: -8, y: -11}
-        - {x: 6, y: -11}
-        - {x: 8, y: -5}
+        - {x: -11, y: -8}
+        - {x: -6, y: -11}
+        - {x: 5, y: -11}
+        - {x: 8, y: -6}
         - {x: 8, y: 2}
         - {x: 7, y: 10}
       tessellationDetail: 0
       bones: []
-      spriteID: da623be47123763428910699f93bf6c7
-      internalID: 909916907
+      spriteID: 4c6f8681c8367524aa4c0647fa6a5c51
+      internalID: -862855515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death-up-4_3
+      name: death-up-8_3
       rect:
         serializedVersion: 2
         x: 120
         y: 0
         width: 40
         height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -222,29 +221,29 @@ TextureImporter:
         - {x: 11, y: 7}
       tessellationDetail: 0
       bones: []
-      spriteID: 0f721f2431e7e594db13fdb7f78c12e2
-      internalID: -2026244659
+      spriteID: 87c1e79ee731d0a4b9dc9e0c55a9463b
+      internalID: -1044076316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death-up-4_4
+      name: death-up-8_4
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 40
         height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -11, y: -5}
-        - {x: -9, y: -12}
-        - {x: 7, y: -12}
-        - {x: 8, y: -8}
+      - - {x: -11, y: -10}
+        - {x: -7, y: -12}
+        - {x: 3, y: -12}
+        - {x: 8, y: -10}
         - {x: 8, y: 2}
         - {x: 7, y: 7}
         - {x: 5, y: 10}
@@ -252,93 +251,93 @@ TextureImporter:
         - {x: -11, y: 8}
       tessellationDetail: 0
       bones: []
-      spriteID: 82a9f6314c5d840479deb2bcfebaabd9
-      internalID: -6627040
+      spriteID: c4ba55d77d2bc7147be1f69ca24edd34
+      internalID: -1675755918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death-up-4_5
+      name: death-up-8_5
       rect:
         serializedVersion: 2
         x: 200
         y: 0
         width: 40
         height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
       - - {x: -9, y: 9}
         - {x: -12, y: 1}
-        - {x: -11, y: -12}
-        - {x: 7, y: -12}
-        - {x: 7, y: -4}
+        - {x: -10, y: -12}
+        - {x: 6, y: -12}
+        - {x: 7, y: -5}
         - {x: 7, y: 4}
         - {x: 3, y: 9}
       tessellationDetail: 0
       bones: []
-      spriteID: 5d0a8b099b6405240a9d30156bd80368
-      internalID: 1189764862
+      spriteID: c8af57f86b3e44c49b5cd13d98e42e22
+      internalID: 202532182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death-up-4_6
+      name: death-up-8_6
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 40
         height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
       - - {x: -9, y: 10}
         - {x: -13, y: 3}
-        - {x: -13, y: -7}
-        - {x: -11, y: -12}
-        - {x: 5, y: -12}
+        - {x: -13, y: -10}
+        - {x: -9, y: -12}
+        - {x: 6, y: -12}
         - {x: 6, y: 3}
         - {x: 2, y: 10}
       tessellationDetail: 0
       bones: []
-      spriteID: 32bf2d48158c427419c3e9c114a0db57
-      internalID: -737103230
+      spriteID: cce0e9db5c4cf7641843ca7897c43863
+      internalID: -251556211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: death-up-4_7
+      name: death-up-8_7
       rect:
         serializedVersion: 2
         x: 280
         y: 0
         width: 40
         height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
       - - {x: -13, y: 12}
         - {x: -15, y: 3}
         - {x: -15, y: -10}
-        - {x: -11, y: -12}
-        - {x: 1, y: -12}
-        - {x: 4, y: -4}
+        - {x: -10, y: -12}
+        - {x: 0, y: -12}
+        - {x: 4, y: -9}
         - {x: 4, y: 10}
         - {x: 0, y: 12}
       tessellationDetail: 0
       bones: []
-      spriteID: e6e7ab77dc4891c48b255ec47e0e3f8d
-      internalID: -1118369508
+      spriteID: 5ac349b390ba0994aace8d14cf9e6d92
+      internalID: -2142015738
       vertices: []
       indices: 
       edges: []
@@ -354,14 +353,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      death-up-4_0: 1992014876
-      death-up-4_1: -624711641
-      death-up-4_2: 909916907
-      death-up-4_3: -2026244659
-      death-up-4_4: -6627040
-      death-up-4_5: 1189764862
-      death-up-4_6: -737103230
-      death-up-4_7: -1118369508
+      death-up-8_0: 495421108
+      death-up-8_1: 1217935373
+      death-up-8_2: -862855515
+      death-up-8_3: -1044076316
+      death-up-8_4: -1675755918
+      death-up-8_5: 202532182
+      death-up-8_6: -251556211
+      death-up-8_7: -2142015738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
