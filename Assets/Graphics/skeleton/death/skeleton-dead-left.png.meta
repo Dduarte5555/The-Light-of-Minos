@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: 79f8833e6ea2094468f010f32def41ff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skeleton-dead-left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 15.5, y: -8}
+        - {x: 15.5, y: 1}
+        - {x: 12.5, y: 9}
+        - {x: -2.5, y: 16}
+        - {x: -10.5, y: 16}
+        - {x: -10.5, y: 7}
+        - {x: -7.5, y: 4}
+        - {x: -5.5, y: -16}
+        - {x: 13.5, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9509c5d744de447a61c0852d450b06
+      internalID: -1786550046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8.5, y: 10}
+        - {x: 2.5, y: 10}
+        - {x: -0.5, y: 7}
+        - {x: 1.5, y: 10}
+        - {x: 2.5, y: 12}
+        - {x: -2.5, y: 16}
+        - {x: -11.5, y: 16}
+        - {x: -11.5, y: 0}
+        - {x: -8.5, y: -16}
+        - {x: 11.5, y: -16}
+        - {x: 15.5, y: -5}
+        - {x: 15.5, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b79a0e58c544774d906f7747658a8e8
+      internalID: -525987460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: 10}
+        - {x: -1.5, y: 7}
+        - {x: 0.5, y: 10}
+        - {x: 1.5, y: 12}
+        - {x: -3.5, y: 16}
+        - {x: -12.5, y: 16}
+        - {x: -12.5, y: -8}
+        - {x: -11.5, y: -16}
+        - {x: 11.5, y: -16}
+        - {x: 14.5, y: -6}
+        - {x: 14.5, y: 5}
+        - {x: 8.5, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63791d88b1fb6804486334a79533d701
+      internalID: 1435696632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4.5, y: 12}
+        - {x: 0.5, y: 11}
+        - {x: -2.5, y: 8}
+        - {x: -2.5, y: 7}
+        - {x: -5.5, y: 5}
+        - {x: -1.5, y: 10}
+        - {x: -0.5, y: 12}
+        - {x: -6.5, y: 16}
+        - {x: -14.5, y: 16}
+        - {x: -14.5, y: -3}
+        - {x: -12.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 13.5, y: -14}
+        - {x: 13.5, y: 3}
+        - {x: 9.5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a84629a1635fdd47afb565ff5cd6c54
+      internalID: -300776387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: 11}
+        - {x: -4.5, y: 8}
+        - {x: -4.5, y: 7}
+        - {x: -7.5, y: 5}
+        - {x: -3.5, y: 10}
+        - {x: -2.5, y: 12}
+        - {x: -8.5, y: 16}
+        - {x: -16.5, y: 16}
+        - {x: -16.5, y: 6}
+        - {x: -15.5, y: -16}
+        - {x: 9.5, y: -16}
+        - {x: 11.5, y: -11}
+        - {x: 11.5, y: 7}
+        - {x: 2.5, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2c0a492138c084bbd00fe72d5ec6dd
+      internalID: 1225190359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.5, y: 11}
+        - {x: -3.5, y: 8}
+        - {x: -3.5, y: 7}
+        - {x: -6.5, y: 5}
+        - {x: -2.5, y: 10}
+        - {x: -1.5, y: 12}
+        - {x: -7.5, y: 16}
+        - {x: -15.5, y: 16}
+        - {x: -15.5, y: 6}
+        - {x: -13.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 12.5, y: -11}
+        - {x: 12.5, y: 7}
+        - {x: 3.5, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d3538cc8bd35248aff89aa2f840fd7
+      internalID: -1453953063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4.5, y: 12}
+        - {x: 0.5, y: 11}
+        - {x: -2.5, y: 8}
+        - {x: -2.5, y: 7}
+        - {x: -5.5, y: 5}
+        - {x: -1.5, y: 10}
+        - {x: -0.5, y: 12}
+        - {x: -6.5, y: 16}
+        - {x: -14.5, y: 16}
+        - {x: -14.5, y: -3}
+        - {x: -12.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 13.5, y: -9}
+        - {x: 13.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdc7ca4c355d2f45ac31700379edd04
+      internalID: 630424429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 15.5, y: -7}
+        - {x: 15.5, y: 2}
+        - {x: 13.5, y: 8}
+        - {x: 6.5, y: 11}
+        - {x: 2.5, y: 11}
+        - {x: -0.5, y: 8}
+        - {x: -0.5, y: 7}
+        - {x: -2.5, y: 7}
+        - {x: 0.5, y: 10}
+        - {x: 1.5, y: 12}
+        - {x: -4.5, y: 16}
+        - {x: -12.5, y: 16}
+        - {x: -12.5, y: -16}
+        - {x: 7.5, y: -16}
+        - {x: 7.5, y: -13}
+        - {x: 11.5, y: -12}
+        - {x: 14.5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292e53bb90070e543b8d1ee5007e6323
+      internalID: 1553178276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5.5, y: -14}
+        - {x: 6.5, y: -16}
+        - {x: 13.5, y: -16}
+        - {x: 13.5, y: -2}
+        - {x: 9.5, y: 7}
+        - {x: 4.5, y: 11}
+        - {x: -4.5, y: 16}
+        - {x: -13.5, y: 16}
+        - {x: -13.5, y: -5}
+        - {x: -12.5, y: -16}
+        - {x: 5.5, y: -16}
+        - {x: 5.5, y: -14}
+        - {x: 3.5, y: -12}
+        - {x: 5.5, y: -13}
+      - - {x: -4.5, y: 0}
+        - {x: -3.5, y: 1}
+        - {x: -3.5, y: 5}
+        - {x: -2.5, y: 6}
+        - {x: -2.5, y: 2}
+        - {x: -4.5, y: 0}
+        - {x: -4.5, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63fa409dc5ad7347aeeef61fbd53e76
+      internalID: 324386279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11.5, y: 14}
+        - {x: -13.5, y: 5}
+        - {x: -13.5, y: -16}
+        - {x: 13.5, y: -16}
+        - {x: 13.5, y: -14}
+        - {x: 9.5, y: 2}
+        - {x: -2.5, y: 14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9c4743729eef643881e131683bf58a
+      internalID: 862624897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: 11}
+        - {x: -6.5, y: 11}
+        - {x: -16.5, y: -7}
+        - {x: -16.5, y: -16}
+        - {x: 11.5, y: -16}
+        - {x: 11.5, y: -3}
+        - {x: 6.5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4902ff4b36cfcf648a7a98346c166308
+      internalID: -512950735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8.5, y: 1}
+        - {x: 6.5, y: 2}
+        - {x: -0.5, y: 2}
+        - {x: -16.5, y: -10}
+        - {x: -16.5, y: -16}
+        - {x: 8.5, y: -16}
+        - {x: 8.5, y: -15}
+        - {x: 5.5, y: -12}
+        - {x: 8.5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91663e498dd5f3a4683adc45db0fc449
+      internalID: 48213582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_12
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 9.5, y: -13}
+        - {x: 3.5, y: -6}
+        - {x: -10.5, y: -6}
+        - {x: -16.5, y: -9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a9824f2237b59499a1f298fd7781eb
+      internalID: 938606391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_13
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8.5, y: -7}
+        - {x: -16.5, y: -9}
+        - {x: -16.5, y: -16}
+        - {x: 11.5, y: -16}
+        - {x: 11.5, y: -11}
+        - {x: 8.5, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3160925d5c73a4f92820743beeeb50
+      internalID: 1670178740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton-dead-left_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 9.5, y: -13}
+        - {x: 3.5, y: -7}
+        - {x: -9.5, y: -7}
+        - {x: -16.5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9db0e8e7af44b4d84a1b475268547f
+      internalID: -199015662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      skeleton-dead-left_0: -1786550046
+      skeleton-dead-left_1: -525987460
+      skeleton-dead-left_10: -512950735
+      skeleton-dead-left_11: 48213582
+      skeleton-dead-left_12: 938606391
+      skeleton-dead-left_13: 1670178740
+      skeleton-dead-left_14: -199015662
+      skeleton-dead-left_2: 1435696632
+      skeleton-dead-left_3: -300776387
+      skeleton-dead-left_4: 1225190359
+      skeleton-dead-left_5: -1453953063
+      skeleton-dead-left_6: 630424429
+      skeleton-dead-left_7: 1553178276
+      skeleton-dead-left_8: 324386279
+      skeleton-dead-left_9: 862624897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
