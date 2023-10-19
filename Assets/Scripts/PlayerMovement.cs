@@ -56,7 +56,10 @@ public class PlayerMovement : MonoBehaviour
 
         else if (other.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(0);
+            Health playerHealth = GetComponent<Health>();
+
+            playerHealth.OnHit(1, other.gameObject);
+
             isColliding = true;
         }
 

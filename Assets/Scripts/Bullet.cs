@@ -7,17 +7,25 @@ public class Bullet : MonoBehaviour
     public GameObject projetil;
     void OnTriggerEnter2D(Collider2D other)
     {
-    if (other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
+            Health enemyHealth = other.GetComponent<Health>();
+
+            if (enemyHealth != null)
+            {
+                enemyHealth.OnHit(1, projetil);
+            }
+
             Destroy(projetil);
-            Destroy(other.gameObject);
         }
     }
-    void OnCollisionEnter2D (Collision2D other){
+
+    void OnCollisionEnter2D (Collision2D other)
+    {
         if (other.gameObject.CompareTag("Parede"))
-                {
-                    Destroy(projetil);
-                }
-            }
+        {
+            Destroy(projetil);
+        }
+    }
     
 }
