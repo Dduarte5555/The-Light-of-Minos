@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
+        // rb.rotation = angle;
 
         isColliding = false;
     }
@@ -67,8 +67,14 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Exit"))
         {
+            rb.position = new Vector3(160f, 25f, 0f);
+            isColliding = true;
+        }
+        else if (other.gameObject.CompareTag("Exit_final"))
+        {
             SceneManager.LoadScene("Scenes/Sucesso");
             isColliding = true;
+            
         }
     }
 }

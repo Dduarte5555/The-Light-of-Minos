@@ -9,6 +9,7 @@ TagManager:
   - EnemyMaster
   - Exit
   - Parede
+  - Exit_final
   layers:
   - Default
   - TransparentFX
