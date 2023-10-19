@@ -11,6 +11,13 @@ public class Bullet : MonoBehaviour
         {
             Destroy(projetil);
             Destroy(other.gameObject);
-        }    
+        }
     }
+    void OnCollisionEnter2D (Collision2D other){
+        if (other.gameObject.CompareTag("Parede"))
+                {
+                    Destroy(projetil);
+                }
+            }
+    
 }

@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - EnemyMaster
   - Exit
+  - Parede
   layers:
   - Default
   - TransparentFX
