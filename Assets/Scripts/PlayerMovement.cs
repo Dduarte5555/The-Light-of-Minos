@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,12 +10,15 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Camera cam;
 
+    public Light2D playerLight;
+    private float initialOuterRadius = 5f;
+
+
     private PlayerLightManager lightManager;
 
     Vector2 movement;
     Vector2 mousePos;
     private bool isColliding = false;
-
     void Start()
     {
         lightManager = GetComponent<PlayerLightManager>();
@@ -40,6 +44,12 @@ public class PlayerMovement : MonoBehaviour
         isColliding = false;
     }
 
+    public void IncreaseLight()
+    {
+        playerLight.intensity = 1;
+        playerLight.pointLightOuterRadius = playerLight.intensity * initialOuterRadius;
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (isColliding)
@@ -51,6 +61,12 @@ public class PlayerMovement : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             lightManager.IncreaseLight(0.1f);
+            isColliding = true;
+        }
+
+        else if (other.gameObject.CompareTag("Tocha"))
+        {
+            IncreaseLight();
             isColliding = true;
         }
 
