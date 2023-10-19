@@ -65,5 +65,10 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(0);
             isColliding = true;
         }
+        else if (other.gameObject.CompareTag("Exit"))
+        {
+            SceneManager.LoadScene("Scenes/Sucesso");
+            isColliding = true;
+        }
     }
 }
