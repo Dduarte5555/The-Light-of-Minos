@@ -13,7 +13,7 @@ public class PlayerLightManager : MonoBehaviour
 
     private float initialOuterRadius = 5f;
     private float initialGlobalIntensity = 0f;
-    private float maximumGlobalIntensity = 0.02f;
+    private float maximumGlobalIntensity = 0.1f;
 
     private Coroutine darkenCoroutine = null;
     private Coroutine enlighteningCoroutine = null;
