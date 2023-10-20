@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sucesso.unity
     guid: 81f5031ff9b60fe49ad4664054619b73
+  - enabled: 1
+    path: Assets/Scenes/Instrucoes.unity
+    guid: dc4063c8429b9c74f870d3940e81616e
   m_configObjects: {}
