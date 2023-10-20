@@ -5,8 +5,9 @@ using UnityEngine.Rendering.Universal;
 
 public class TochaEvent : MonoBehaviour
 {
-    public GameObject lightPrefab; // Reference to the prefab of the light you want to spawn.
+    // public GameObject lightPrefab; // Reference to the prefab of the light you want to spawn.
     public GameObject tocha; // Reference to the prefab of the light you want to spawn.
+    public Light2D Light;
     AudioSource aud;
     Animator ani;
 
@@ -31,7 +32,8 @@ public class TochaEvent : MonoBehaviour
     void SpawnLight()
     {
         // Instantiate the lightPrefab at the current position of the circle.
-        GameObject newLight = Instantiate(lightPrefab, transform.position, Quaternion.identity);
+        // GameObject newLight = Instantiate(lightPrefab, transform.position, Quaternion.identity);
+        Light.intensity = 1;
         aud.Play();
         ani.SetBool("OnFire", true);
     }
