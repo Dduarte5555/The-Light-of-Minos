@@ -14,11 +14,9 @@ public class PlayerMovement : MonoBehaviour
     private PlayerLightManager lightManager;
 
     public Light2D playerLight;
-    private float initialOuterRadius = 5f;
 
     Vector2 movement;
     Vector2 mousePos;
-    private bool isColliding = false;
 
 
     void Start()
@@ -54,24 +52,17 @@ public class PlayerMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (isColliding)
-        {
-            return;
-        }
 
         if (other.gameObject.CompareTag("labareda"))
         {
             other.gameObject.SetActive(false);
             lightManager.IncreaseLight(0.1f);
-            isColliding = true;
         }
 
         else if (other.gameObject.CompareTag("Tocha"))
         {
             lightManager.IncreaseLight(1f);
             ani.SetBool("PlayerHasTorch", true);
-            isColliding = true;
-            Debug.Log("TOCHAAA");
         }
 
         else if (other.gameObject.CompareTag("Enemy"))
@@ -79,24 +70,19 @@ public class PlayerMovement : MonoBehaviour
             Health playerHealth = GetComponent<Health>();
 
             playerHealth.OnHit(1, other.gameObject);
-
-            isColliding = true;
         }
 
         else if (other.gameObject.CompareTag("EnemyMaster"))
         {
             SceneManager.LoadScene(0);
-            isColliding = true;
         }
         else if (other.gameObject.CompareTag("Exit"))
         {
             rb.position = new Vector3(160f, 25f, 0f);
-            isColliding = true;
         }
         else if (other.gameObject.CompareTag("Exit_final"))
         {
             SceneManager.LoadScene("Scenes/Sucesso");
-            isColliding = true;
             
         }
     }
