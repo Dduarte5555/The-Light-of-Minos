@@ -86,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Health playerHealth = GetComponent<Health>();
 
-            playerHealth.OnHit(1, other.gameObject);
+            playerHealth.OnHit(1, other.gameObject,other.gameObject);
         }
     }
 }
