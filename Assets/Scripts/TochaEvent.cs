@@ -7,6 +7,15 @@ public class TochaEvent : MonoBehaviour
 {
     public GameObject lightPrefab; // Reference to the prefab of the light you want to spawn.
     public GameObject tocha; // Reference to the prefab of the light you want to spawn.
+    AudioSource aud;
+    Animator ani;
+
+    void Start()
+    {
+        aud = GetComponent<AudioSource>();
+        ani = this.GetComponent<Animator>();
+    }
+
 
     // This method is called when another object enters the trigger collider.
     private void OnTriggerEnter2D(Collider2D other)
@@ -23,5 +32,7 @@ public class TochaEvent : MonoBehaviour
     {
         // Instantiate the lightPrefab at the current position of the circle.
         GameObject newLight = Instantiate(lightPrefab, transform.position, Quaternion.identity);
+        aud.Play();
+        ani.SetBool("OnFire", true);
     }
 }

@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     public Camera cam;
+    Animator ani;
 
     private PlayerLightManager lightManager;
 
@@ -19,10 +20,13 @@ public class PlayerMovement : MonoBehaviour
     Vector2 mousePos;
     private bool isColliding = false;
 
+
     void Start()
     {
         lightManager = GetComponent<PlayerLightManager>();
         lightManager.InitializeLight();
+
+        ani = this.GetComponent<Animator>();
     }
 
     void Update()
@@ -37,11 +41,15 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
-
-        isColliding = false;
+        //Debug.Log(movement);
+        if (movement != Vector2.zero)
+        {
+            ani.SetBool("PlayerIsMoving", true);
+        }
+        else
+        {
+            ani.SetBool("PlayerIsMoving", false);
+        }
     }
 
     public void IncreaseLight()

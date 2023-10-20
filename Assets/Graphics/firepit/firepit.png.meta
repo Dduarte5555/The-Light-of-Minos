@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: 30d98692e37f14794804a2b2baf467c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: firepit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1080
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 131.04492, y: 215.76625}
+        - {x: 71.98242, y: 263.7143}
+        - {x: -190.10742, y: 263.7143}
+        - {x: -341.45508, y: 12.909092}
+        - {x: -341.45508, y: -226.83118}
+        - {x: 245.47852, y: -226.83118}
+        - {x: 378.36914, y: -182.57144}
+        - {x: 378.36914, y: -12.909092}
+        - {x: 145.81055, y: 219.45456}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca04de707056746d6a3b9bed926c1a6a
+      internalID: -347303124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firepit_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 1080
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -119.70698, y: 300.5974}
+        - {x: -241.52339, y: 160.44156}
+        - {x: -341.19135, y: -12.909092}
+        - {x: -341.19135, y: -215.76625}
+        - {x: -300.58588, y: -226.83118}
+        - {x: 378.63284, y: -226.83118}
+        - {x: 378.63284, y: 167.81819}
+        - {x: 135.00005, y: 300.5974}
+      - - {x: -304.27728, y: 71.92208}
+        - {x: -304.27728, y: 27.662338}
+        - {x: -289.51166, y: 12.909092}
+        - {x: -252.59761, y: 12.909092}
+        - {x: -230.44917, y: 23.974028}
+        - {x: -230.44917, y: 46.103897}
+        - {x: -252.59761, y: 71.92208}
+      - - {x: -178.76949, y: 178.88313}
+        - {x: -197.22652, y: 164.12988}
+        - {x: -197.22652, y: 127.24676}
+        - {x: -178.76949, y: 119.87013}
+        - {x: -127.08979, y: 119.87013}
+        - {x: -123.398384, y: 130.93507}
+        - {x: -123.398384, y: 156.75325}
+        - {x: -149.23824, y: 178.88313}
+      - - {x: -75.41011, y: 407.55847}
+        - {x: -75.41011, y: 359.6104}
+        - {x: -53.26167, y: 359.6104}
+        - {x: -16.347609, y: 378.05197}
+        - {x: -16.347609, y: 407.55847}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bae95d97f82431b9eaf28608ccd9c7
+      internalID: -1059739427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firepit_2
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 1080
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12.392482, y: 226.83118}
+        - {x: -248.64247, y: 164.12988}
+        - {x: -340.92764, y: 1.8441559}
+        - {x: -340.92764, y: -219.45456}
+        - {x: -311.3964, y: -226.83118}
+        - {x: 271.8458, y: -226.83118}
+        - {x: 378.89658, y: -186.25975}
+        - {x: 378.89658, y: 31.35065}
+        - {x: 308.75986, y: 226.83118}
+      - - {x: -134.2089, y: 215.76625}
+        - {x: -148.97452, y: 201.013}
+        - {x: -148.97452, y: 167.81819}
+        - {x: -134.2089, y: 156.75325}
+        - {x: -93.60342, y: 156.75325}
+        - {x: -78.83779, y: 164.12988}
+        - {x: -78.83779, y: 189.94806}
+        - {x: -104.677635, y: 215.76625}
+      - - {x: 249.69736, y: 193.63637}
+        - {x: 246.00595, y: 186.25975}
+        - {x: 246.00595, y: 164.12988}
+        - {x: 253.38876, y: 156.75325}
+        - {x: 275.5372, y: 156.75325}
+        - {x: 282.92, y: 160.44156}
+        - {x: 282.92, y: 186.25975}
+        - {x: 275.5372, y: 193.63637}
+      - - {x: 157.4122, y: 263.7143}
+        - {x: 150.02939, y: 256.33768}
+        - {x: 150.02939, y: 234.20781}
+        - {x: 157.4122, y: 226.83118}
+        - {x: 179.56064, y: 226.83118}
+        - {x: 186.94345, y: 234.20781}
+        - {x: 186.94345, y: 256.33768}
+        - {x: 179.56064, y: 263.7143}
+      - - {x: 31.904392, y: 267.40262}
+        - {x: 31.904392, y: 256.33768}
+        - {x: 42.97861, y: 241.58443}
+        - {x: 57.744236, y: 241.58443}
+        - {x: 65.12705, y: 245.27274}
+        - {x: 65.12705, y: 267.40262}
+        - {x: 57.744236, y: 274.77924}
+        - {x: 39.287205, y: 274.77924}
+      - - {x: 46.670017, y: 359.6104}
+        - {x: 31.904392, y: 333.79224}
+        - {x: 31.904392, y: 278.46756}
+        - {x: 35.5958, y: 267.40262}
+        - {x: 83.58408, y: 263.7143}
+        - {x: 186.94345, y: 263.7143}
+        - {x: 186.94345, y: 322.7273}
+        - {x: 153.7208, y: 359.6104}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827e285c245d84f4b9d42ef98dbc144d
+      internalID: -1300833571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firepit_3
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 1080
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 353.32034, y: 252.64937}
+        - {x: 253.65237, y: 289.53247}
+        - {x: 113.37894, y: 289.53247}
+        - {x: 94.921906, y: 278.46756}
+        - {x: -215.15622, y: 119.87013}
+        - {x: -340.66403, y: -16.597403}
+        - {x: -340.66403, y: -164.12988}
+        - {x: -159.78513, y: -226.83118}
+        - {x: 190.89847, y: -226.83118}
+        - {x: 379.1602, y: -178.88313}
+        - {x: 379.1602, y: 142}
+      - - {x: -126.56247, y: 241.58443}
+        - {x: -133.94528, y: 234.20781}
+        - {x: -133.94528, y: 204.70131}
+        - {x: -119.17966, y: 178.88313}
+        - {x: -74.88278, y: 178.88313}
+        - {x: -74.88278, y: 219.45456}
+        - {x: -108.10544, y: 241.58443}
+      - - {x: 172.44144, y: 337.48053}
+        - {x: 165.05862, y: 330.1039}
+        - {x: 165.05862, y: 307.97403}
+        - {x: 172.44144, y: 300.5974}
+        - {x: 194.58987, y: 300.5974}
+        - {x: 201.97269, y: 307.97403}
+        - {x: 201.97269, y: 326.4156}
+        - {x: 190.89847, y: 337.48053}
+      - - {x: 83.84769, y: 396.49353}
+        - {x: 58.007843, y: 359.6104}
+        - {x: 58.007843, y: 311.66235}
+        - {x: 172.44144, y: 311.66235}
+        - {x: 201.97269, y: 319.03897}
+        - {x: 201.97269, y: 363.2987}
+        - {x: 165.05862, y: 396.49353}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0099ee3eb804140b9738f6bb43fe81
+      internalID: 1718895572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firepit_4
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 1080
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -26.630667, y: 337.48053}
+        - {x: -340.4002, y: 79.298706}
+        - {x: -340.4002, y: -226.83118}
+        - {x: 379.424, y: -226.83118}
+        - {x: 379.424, y: 171.5065}
+        - {x: 301.90448, y: 337.48053}
+      - - {x: -129.99004, y: 241.58443}
+        - {x: -137.37285, y: 234.20781}
+        - {x: -137.37285, y: 223.14287}
+        - {x: -129.99004, y: 215.76625}
+        - {x: -107.8416, y: 215.76625}
+        - {x: -100.45879, y: 223.14287}
+        - {x: -100.45879, y: 234.20781}
+        - {x: -107.8416, y: 241.58443}
+      - - {x: 294.52167, y: 274.77924}
+        - {x: 279.75604, y: 274.77924}
+        - {x: 272.37323, y: 267.40262}
+        - {x: 272.37323, y: 248.96104}
+        - {x: 279.75604, y: 241.58443}
+        - {x: 301.90448, y: 241.58443}
+        - {x: 309.2873, y: 248.96104}
+        - {x: 309.2873, y: 260.026}
+      - - {x: 80.42011, y: 400.18182}
+        - {x: 80.42011, y: 363.2987}
+        - {x: 87.802925, y: 348.54547}
+        - {x: 187.47089, y: 348.54547}
+        - {x: 187.47089, y: 385.4286}
+        - {x: 161.63106, y: 411.24677}
+        - {x: 132.09981, y: 418.62338}
+        - {x: 109.95136, y: 418.62338}
+        - {x: 87.802925, y: 407.55847}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2ed43c3ce0e4ba3b1a09e904d8375f
+      internalID: -1487155868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firepit_5
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 1080
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 220.95715, y: 167.81819}
+        - {x: 209.88293, y: 167.81819}
+        - {x: 176.66028, y: 134.62338}
+        - {x: 176.66028, y: 112.493515}
+        - {x: 176.66028, y: 138.31169}
+        - {x: 224.64856, y: 186.25975}
+        - {x: 272.63684, y: 304.28574}
+        - {x: 268.94543, y: 374.36365}
+        - {x: 198.80872, y: 385.4286}
+        - {x: 91.75794, y: 385.4286}
+        - {x: -92.81237, y: 234.20781}
+        - {x: -122.34362, y: 160.44156}
+        - {x: -107.577995, y: 156.75325}
+        - {x: -111.2694, y: 153.06494}
+        - {x: -118.652214, y: 156.75325}
+        - {x: -137.10924, y: 156.75325}
+        - {x: -148.18346, y: 145.68832}
+        - {x: -340.1366, y: -20.285715}
+        - {x: -340.1366, y: -182.57144}
+        - {x: -177.7147, y: -226.83118}
+        - {x: 361.2306, y: -226.83118}
+        - {x: 383.37903, y: -197.32469}
+        - {x: 383.37903, y: 82.987015}
+        - {x: 276.32825, y: 160.44156}
+      - - {x: 353.84778, y: 82.987015}
+        - {x: 346.46497, y: 75.61039}
+        - {x: 346.46497, y: 53.480522}
+        - {x: 353.84778, y: 46.103897}
+        - {x: 372.3048, y: 46.103897}
+        - {x: 383.37903, y: 57.168835}
+        - {x: 383.37903, y: 75.61039}
+        - {x: 375.99622, y: 82.987015}
+      - - {x: -30.058464, y: 322.7273}
+        - {x: -37.441277, y: 315.35068}
+        - {x: -37.441277, y: 296.90912}
+        - {x: -30.058464, y: 289.53247}
+        - {x: -7.9100275, y: 289.53247}
+        - {x: -0.527215, y: 296.90912}
+        - {x: -0.527215, y: 315.35068}
+        - {x: -7.9100275, y: 322.7273}
+      - - {x: 250.4884, y: 426}
+        - {x: 250.4884, y: 414.9351}
+        - {x: 257.87122, y: 407.55847}
+        - {x: 280.01965, y: 407.55847}
+        - {x: 287.40247, y: 414.9351}
+        - {x: 287.40247, y: 426}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b28e172d8844306ac402079e8653d1
+      internalID: -1603846899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firepit_6
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 1080
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 239.6778, y: 407.55847}
+        - {x: -184.83392, y: 407.55847}
+        - {x: -339.873, y: 35.038963}
+        - {x: -339.873, y: -215.76625}
+        - {x: -299.26752, y: -226.83118}
+        - {x: 199.07233, y: -226.83118}
+        - {x: 379.95123, y: -212.07793}
+        - {x: 379.95123, y: 57.168835}
+        - {x: 250.75201, y: 403.87015}
+      - - {x: 339.34576, y: 97.740265}
+        - {x: 331.96295, y: 90.36364}
+        - {x: 331.96295, y: 68.23377}
+        - {x: 339.34576, y: 60.857147}
+        - {x: 361.4942, y: 60.857147}
+        - {x: 368.877, y: 68.23377}
+        - {x: 368.877, y: 90.36364}
+        - {x: 361.4942, y: 97.740265}
+      - - {x: 147.39264, y: 322.7273}
+        - {x: 140.00983, y: 315.35068}
+        - {x: 140.00983, y: 293.2208}
+        - {x: 147.39264, y: 289.53247}
+        - {x: 169.54108, y: 289.53247}
+        - {x: 176.92389, y: 296.90912}
+        - {x: 176.92389, y: 315.35068}
+        - {x: 173.23248, y: 322.7273}
+      - - {x: -40.869076, y: 348.54547}
+        - {x: -51.943295, y: 341.16885}
+        - {x: -51.943295, y: 307.97403}
+        - {x: -48.25189, y: 300.5974}
+        - {x: -18.720638, y: 300.5974}
+        - {x: -3.9550138, y: 311.66235}
+        - {x: -3.9550138, y: 333.79224}
+        - {x: -18.720638, y: 348.54547}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab6465bbb5334ed2816e6a10566bba3
+      internalID: 788329449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      firepit_0: -347303124
+      firepit_1: -1059739427
+      firepit_2: -1300833571
+      firepit_3: 1718895572
+      firepit_4: -1487155868
+      firepit_5: -1603846899
+      firepit_6: 788329449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
