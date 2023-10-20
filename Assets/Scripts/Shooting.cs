@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using System;
 
 public class Shooting : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class Shooting : MonoBehaviour
     public Camera cam;
     public Rigidbody2D player;
     Animator ani;
+    public DateTime currentTime;
+    public Boolean hasShot;
 
     private float initialOuterRadius = 5f;
 
@@ -38,30 +41,39 @@ public class Shooting : MonoBehaviour
     {
         // Start the attack animation and set the PlayerIsAttacking variable to true.
         ani.SetBool("PlayerIsAttacking", true);
+        
     }
 
-    public void OnAttackAnimationFinished()
+    public IEnumerator OnAttackAnimationFinished()
     {
-        // Calculate the direction from the player.position to the mouse position (mousePos).
-        Vector2 direction = (mousePos - player.position).normalized;
+        if (!hasShot) {
+            hasShot = true;
+            // Calculate the direction from the player.position to the mouse position (mousePos).
+            Vector2 direction = (mousePos - player.position).normalized;
 
-        // Calculate the position of the bullet spawn point, 1 meter from the player in the direction of the mouse.
-        Vector3 bulletSpawnPosition = player.position + direction * 1f;
+            // Calculate the position of the bullet spawn point, 1 meter from the player in the direction of the mouse.
+            Vector3 bulletSpawnPosition = player.position + direction * 1f;
 
-        // Instantiate the bullet at the calculated position.
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPosition, Quaternion.identity);
+            // Instantiate the bullet at the calculated position.
+            GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPosition, Quaternion.identity);
 
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
-        // Apply the force to the bullet.
-        rb.AddForce(direction * bulletForce, ForceMode2D.Impulse);
+            // Apply the force to the bullet.
+            rb.AddForce(direction * bulletForce, ForceMode2D.Impulse);
 
-        Light2D bulletLight = bullet.GetComponent<Light2D>();
-        bulletLight.intensity = lightManager.GetIntensity();
-        bulletLight.pointLightOuterRadius = bulletLight.intensity * initialOuterRadius;
+            Light2D bulletLight = bullet.GetComponent<Light2D>();
+            bulletLight.intensity = lightManager.GetIntensity();
+            bulletLight.pointLightOuterRadius = bulletLight.intensity * initialOuterRadius;
 
-        // Set the PlayerIsAttacking variable to false.
-        ani.SetBool("PlayerIsAttacking", false);
+            // Set the PlayerIsAttacking variable to false.
+            ani.SetBool("PlayerIsAttacking", false);
+
+            yield return new WaitForSeconds(0.2f);
+
+            hasShot = false;
+        }
+        
 
     }
 }
