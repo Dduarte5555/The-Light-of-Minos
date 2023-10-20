@@ -65,13 +65,6 @@ public class PlayerMovement : MonoBehaviour
             ani.SetBool("PlayerHasTorch", true);
         }
 
-        else if (other.gameObject.CompareTag("Enemy"))
-        {
-            Health playerHealth = GetComponent<Health>();
-
-            playerHealth.OnHit(1, other.gameObject);
-        }
-
         else if (other.gameObject.CompareTag("EnemyMaster"))
         {
             SceneManager.LoadScene(0);
@@ -84,6 +77,16 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene("Scenes/Sucesso");
             
+        }
+    }
+
+     void OnCollisionEnter2D (Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Health playerHealth = GetComponent<Health>();
+
+            playerHealth.OnHit(1, other.gameObject);
         }
     }
 }
