@@ -10,11 +10,13 @@ public class TochaEvent : MonoBehaviour
     public Light2D Light;
     AudioSource aud;
     Animator ani;
+    private bool hasLight;
 
     void Start()
     {
         aud = GetComponent<AudioSource>();
         ani = this.GetComponent<Animator>();
+        hasLight = false;
     }
 
 
@@ -36,5 +38,18 @@ public class TochaEvent : MonoBehaviour
         Light.intensity = 1;
         aud.Play();
         ani.SetBool("OnFire", true);
+        hasLight = true;
+    }
+
+    public void DisableLight()
+    {
+        Light.intensity = 0;
+        ani.SetBool("OnFire", false);
+        hasLight = false;
+    }
+
+    public bool HasLight()
+    {
+        return hasLight;
     }
 }

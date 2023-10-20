@@ -69,7 +69,7 @@ public class Shooting : MonoBehaviour
             // Set the PlayerIsAttacking variable to false.
             ani.SetBool("PlayerIsAttacking", false);
 
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.1f);
 
             hasShot = false;
         }
