@@ -1,0 +1,666 @@
+fileFormatVersion: 2
+guid: 068185dced01fc544b31c62e77bb024f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skeleton_attackleft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 19.5, y: 6.5}
+        - {x: 1.5, y: 15.5}
+        - {x: -2.5, y: 15.5}
+        - {x: -2.5, y: -5.5}
+        - {x: -0.5, y: -18.5}
+        - {x: 21.5, y: -18.5}
+        - {x: 21.5, y: 1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7b30c80382c314e98e77ba98758c17
+      internalID: -483619906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: 15.5}
+        - {x: -1.5, y: -7.5}
+        - {x: 0.5, y: -18.5}
+        - {x: 21.5, y: -18.5}
+        - {x: 21.5, y: 4.5}
+        - {x: 7.5, y: 15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a7775117c78a443918c834726eeea5
+      internalID: 1256034647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.5, y: 15.5}
+        - {x: -0.5, y: -8.5}
+        - {x: 0.5, y: -18.5}
+        - {x: 21.5, y: -18.5}
+        - {x: 21.5, y: 4.5}
+        - {x: 8.5, y: 15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156efc390d0a49e4099ce3fac1407984
+      internalID: 1099137337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10.5, y: 13.5}
+        - {x: -10.5, y: 3.5}
+        - {x: -0.5, y: -18.5}
+        - {x: 20.5, y: -18.5}
+        - {x: 20.5, y: 4.5}
+        - {x: 13.5, y: 13.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c53b5056e09c14ea90d88a2fb3e4fc
+      internalID: -1544162463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16.5, y: 5.5}
+        - {x: -16.5, y: -8.5}
+        - {x: -1.5, y: -16.5}
+        - {x: 4.5, y: -18.5}
+        - {x: 18.5, y: -18.5}
+        - {x: 19.5, y: -14.5}
+        - {x: 19.5, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb530d1d9514fdb42b217ebffb811c4a
+      internalID: -1142972369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 10.5, y: 5.5}
+        - {x: 3.5, y: 5.5}
+        - {x: 1.5, y: 1.5}
+        - {x: -13.5, y: -3.5}
+        - {x: -19.5, y: -14.5}
+        - {x: -19.5, y: -15.5}
+        - {x: -18.5, y: -18.5}
+        - {x: 17.5, y: -18.5}
+        - {x: 17.5, y: 1.5}
+        - {x: 15.5, y: 4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1553bcff012ad5d4b8a296a29b9dae19
+      internalID: 1285961987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11.5, y: 5.5}
+        - {x: -0.5, y: 5.5}
+        - {x: -13.5, y: -6.5}
+        - {x: -18.5, y: -13.5}
+        - {x: -18.5, y: -18.5}
+        - {x: 15.5, y: -18.5}
+        - {x: 17.5, y: -13.5}
+        - {x: 17.5, y: -4.5}
+        - {x: 14.5, y: 3.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316f177e4ac361a43989007e2c8f2a16
+      internalID: 531753110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 10.5, y: 5.5}
+        - {x: 0.5, y: 5.5}
+        - {x: -17.5, y: -13.5}
+        - {x: -17.5, y: -18.5}
+        - {x: 18.5, y: -18.5}
+        - {x: 18.5, y: -4.5}
+        - {x: 13.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac3ae58035703843a673e5f511c8ea7
+      internalID: -1412397274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: 4.5}
+        - {x: -17.5, y: -12.5}
+        - {x: -17.5, y: -18.5}
+        - {x: 18.5, y: -18.5}
+        - {x: 18.5, y: -1.5}
+        - {x: 11.5, y: 4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae754ef5716a7a34abf565f6c40eeebe
+      internalID: 1427733763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: 2.5}
+        - {x: -18.5, y: -4.5}
+        - {x: -18.5, y: -18.5}
+        - {x: 15.5, y: -18.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 16.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4762a60c27a3d3a4eb91504e6aec04f7
+      internalID: 836057350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_10
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: -2.5}
+        - {x: 0.5, y: 4.5}
+        - {x: 21.5, y: 7.5}
+        - {x: 21.5, y: 18.5}
+        - {x: -3.5, y: 18.5}
+        - {x: -8.5, y: 15.5}
+        - {x: -18.5, y: 4.5}
+        - {x: -20.5, y: -6.5}
+        - {x: -20.5, y: -18.5}
+        - {x: 18.5, y: -18.5}
+        - {x: 18.5, y: -2.5}
+        - {x: 11.5, y: 1.5}
+        - {x: 5.5, y: 1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6769cde67b79aa4daf207b58c9c014a
+      internalID: 1695501867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_11
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0.5, y: -4.5}
+        - {x: 0.5, y: -15.5}
+        - {x: 4.5, y: -18.5}
+        - {x: 16.5, y: -18.5}
+        - {x: 21.5, y: -5.5}
+        - {x: 21.5, y: 16.5}
+        - {x: 15.5, y: 16.5}
+        - {x: 12.5, y: 15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4577637512893d74390e360edcecac0d
+      internalID: 1126529095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_12
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 18.5, y: 18.5}
+        - {x: 14.5, y: 14.5}
+        - {x: 14.5, y: 11.5}
+        - {x: 0.5, y: -4.5}
+        - {x: 0.5, y: -15.5}
+        - {x: 2.5, y: -18.5}
+        - {x: 15.5, y: -18.5}
+        - {x: 21.5, y: -9.5}
+        - {x: 21.5, y: 18.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f5ba2abe0509f41b2063b0bb4341bc
+      internalID: -1461777291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_13
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14.5, y: 18.5}
+        - {x: 11.5, y: 15.5}
+        - {x: 0.5, y: -5.5}
+        - {x: 0.5, y: -9.5}
+        - {x: 6.5, y: -18.5}
+        - {x: 21.5, y: -18.5}
+        - {x: 21.5, y: 18.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ea6bec30be9a24d8e0aa97e624f4d1
+      internalID: -1804253569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_14
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: 15.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 4.5, y: -18.5}
+        - {x: 21.5, y: -18.5}
+        - {x: 21.5, y: -5.5}
+        - {x: 20.5, y: 3.5}
+        - {x: 2.5, y: 15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78952c00ddfbc834e92554dc0f95f10f
+      internalID: -1345543200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_15
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4.5, y: 15.5}
+        - {x: 0.5, y: 15.5}
+        - {x: -1.5, y: 14.5}
+        - {x: -1.5, y: 1.5}
+        - {x: 3.5, y: -18.5}
+        - {x: 21.5, y: -18.5}
+        - {x: 21.5, y: 0.5}
+        - {x: 20.5, y: 4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7f4f27403eea540b4ead812bd4a97b
+      internalID: -712795162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_16
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 21.5, y: -18.5}
+        - {x: 21.5, y: -0.5}
+        - {x: 18.5, y: 3.5}
+        - {x: 15.5, y: 6.5}
+        - {x: 10.5, y: 6.5}
+        - {x: 6.5, y: 2.5}
+        - {x: 10.5, y: 9.5}
+        - {x: 2.5, y: 15.5}
+        - {x: -2.5, y: 15.5}
+        - {x: -2.5, y: 0.5}
+        - {x: 1.5, y: -18.5}
+        - {x: 8.5, y: -18.5}
+        - {x: 8.5, y: -10.5}
+        - {x: 8.5, y: -18.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f46bd4e4b838f4ea19775e22589910
+      internalID: -1339640870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_attackleft_17
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 0
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 19.5, y: 6.5}
+        - {x: 1.5, y: 15.5}
+        - {x: -2.5, y: 15.5}
+        - {x: -2.5, y: -5.5}
+        - {x: -0.5, y: -18.5}
+        - {x: 21.5, y: -18.5}
+        - {x: 21.5, y: 1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c884d40bc8551924b9fd959d59cfb574
+      internalID: 705854042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      skeleton_attackleft_0: -483619906
+      skeleton_attackleft_1: 1256034647
+      skeleton_attackleft_10: 1695501867
+      skeleton_attackleft_11: 1126529095
+      skeleton_attackleft_12: -1461777291
+      skeleton_attackleft_13: -1804253569
+      skeleton_attackleft_14: -1345543200
+      skeleton_attackleft_15: -712795162
+      skeleton_attackleft_16: -1339640870
+      skeleton_attackleft_17: 705854042
+      skeleton_attackleft_2: 1099137337
+      skeleton_attackleft_3: -1544162463
+      skeleton_attackleft_4: -1142972369
+      skeleton_attackleft_5: 1285961987
+      skeleton_attackleft_6: 531753110
+      skeleton_attackleft_7: -1412397274
+      skeleton_attackleft_8: 1427733763
+      skeleton_attackleft_9: 836057350
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

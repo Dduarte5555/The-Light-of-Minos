@@ -117,24 +117,15 @@ TextureImporter:
         y: 200
         width: 100
         height: 100
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 30, y: 0, z: 20, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -20, y: 7}
-        - {x: -20, y: -7}
-        - {x: 12, y: -34}
-        - {x: 26, y: -34}
-        - {x: 29, y: -28}
-        - {x: 29, y: 18}
-        - {x: 28, y: 24}
-        - {x: 17, y: 31}
-        - {x: -12, y: 31}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c1ec20e17acef34ab7b4b875d5ffd95
-      internalID: -1657390112
+      spriteID: f442b2f9499198246b69a17f8d4eb1e5
+      internalID: 1725759521
       vertices: []
       indices: 
       edges: []
@@ -147,23 +138,15 @@ TextureImporter:
         y: 200
         width: 100
         height: 100
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 20, y: 0, z: 43, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -29, y: 37}
-        - {x: -29, y: 12}
-        - {x: -17, y: -19}
-        - {x: -9, y: -31}
-        - {x: -1, y: -31}
-        - {x: 6, y: -30}
-        - {x: 6, y: 33}
-        - {x: -21, y: 37}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 779c9b78dfa4c8940a8a165b6a9fd346
-      internalID: 1636904800
+      spriteID: a0390b53afe4d09479817460ba94c136
+      internalID: 2060732008
       vertices: []
       indices: 
       edges: []
@@ -176,31 +159,15 @@ TextureImporter:
         y: 200
         width: 100
         height: 100
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 20, y: 0, z: 9, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 16, y: 24}
-        - {x: 21, y: 26}
-        - {x: 31, y: 18}
-        - {x: 37, y: 7}
-        - {x: 40, y: 8}
-        - {x: 40, y: 26}
-        - {x: 23, y: 39}
-        - {x: -25, y: 39}
-        - {x: -30, y: 24}
-        - {x: -30, y: -21}
-        - {x: -6, y: -34}
-        - {x: 35, y: -34}
-        - {x: 34, y: -20}
-        - {x: 37, y: 6}
-        - {x: 28, y: 19}
-        - {x: 22, y: 22}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9d541931107ee04888e9fed7083f868
-      internalID: -1515801062
+      spriteID: a6e6850da6a18884485e249578950642
+      internalID: -1941111941
       vertices: []
       indices: 
       edges: []
@@ -213,27 +180,15 @@ TextureImporter:
         y: 200
         width: 100
         height: 100
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 33, y: 0, z: 4, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 40, y: 23}
-        - {x: -9, y: 23}
-        - {x: -18, y: 20}
-        - {x: -18, y: -17}
-        - {x: 2, y: -27}
-        - {x: 24, y: -25}
-        - {x: 31, y: -34}
-        - {x: 44, y: -34}
-        - {x: 44, y: -26}
-        - {x: 45, y: -15}
-        - {x: 45, y: 12}
-        - {x: 42, y: 22}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24225ca6888e8b14cb4add8256ce7692
-      internalID: 985676667
+      spriteID: 3b88cb968d0cfb64db0952dde83a9791
+      internalID: -1075567448
       vertices: []
       indices: 
       edges: []
@@ -246,24 +201,15 @@ TextureImporter:
         y: 200
         width: 100
         height: 100
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 27, y: 0, z: 16, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 5, y: 23}
-        - {x: -24, y: -13}
-        - {x: -24, y: -20}
-        - {x: -10, y: -27}
-        - {x: 4, y: -27}
-        - {x: 8, y: -21}
-        - {x: 17, y: -33}
-        - {x: 31, y: -33}
-        - {x: 33, y: 23}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93b2284e5f469d94da661459d7fb8215
-      internalID: 569128740
+      spriteID: 1644664f147a7b1479ad7a4bd1159f1c
+      internalID: -438917838
       vertices: []
       indices: 
       edges: []
@@ -276,32 +222,36 @@ TextureImporter:
         y: 200
         width: 100
         height: 100
-      alignment: 0
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 0, z: 40, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42df06ad92d5e84398a5aae4730dea3
+      internalID: -1319971404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morbius-attack-left_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 2, y: 18}
-        - {x: -5, y: 24}
-        - {x: -10, y: 23}
-        - {x: -12, y: 18}
-        - {x: -18, y: 33}
-        - {x: -20, y: 36}
-        - {x: -25, y: 36}
-        - {x: -35, y: 35}
-        - {x: -43, y: 21}
-        - {x: -43, y: -6}
-        - {x: -34, y: -23}
-        - {x: -16, y: -33}
-        - {x: 5, y: -33}
-        - {x: 6, y: -28}
-        - {x: 8, y: -22}
-        - {x: 9, y: -5}
-        - {x: 9, y: 8}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3588f7df2af49344b8f2dc3e4a5d87be
-      internalID: -1805018634
+      spriteID: 14eac5112d3b97c4eb40ede46150d6ef
+      internalID: 259439711
       vertices: []
       indices: 
       edges: []
@@ -317,12 +267,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      morbius-attack-left_0: -1657390112
-      morbius-attack-left_1: 1636904800
-      morbius-attack-left_2: -1515801062
-      morbius-attack-left_3: 985676667
-      morbius-attack-left_4: 569128740
-      morbius-attack-left_5: -1805018634
+      morbius-attack-left_0: 1725759521
+      morbius-attack-left_1: 2060732008
+      morbius-attack-left_2: -1941111941
+      morbius-attack-left_3: -1075567448
+      morbius-attack-left_4: -438917838
+      morbius-attack-left_5: -1319971404
+      morbius-attack-left_6: 259439711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
