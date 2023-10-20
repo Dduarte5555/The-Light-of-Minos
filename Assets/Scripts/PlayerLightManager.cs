@@ -10,6 +10,7 @@ public class PlayerLightManager : MonoBehaviour
     public float intensityDecrease;
     public float minIntensity;
     public Light2D globalLight;
+    Animator ani;
 
     private float initialOuterRadius = 5f;
     private float initialGlobalIntensity = 0f;
@@ -23,17 +24,26 @@ public class PlayerLightManager : MonoBehaviour
         initialIntensity = 1f;
         intensityDecrease = 0.1f;
         minIntensity = 0.2f;
+        ani = this.GetComponent<Animator>();
     }
 
     void Update()
     {
         if (GetIntensity() <= minIntensity && enlighteningCoroutine == null)
         {
-            StartEnvironmentTransition(5.0f, false);
+            StartEnvironmentTransition(5.0f, false);            
         }
         else if (GetIntensity() > minIntensity && globalLight.intensity > initialGlobalIntensity && darkenCoroutine == null)
         {
             StartEnvironmentTransition(5.0f, true);
+        }
+
+        if (playerLight.intensity > minIntensity)
+        {
+            ani.SetBool("PlayerHasTorch", true);
+        } else
+        {
+            ani.SetBool("PlayerHasTorch", false);
         }
     }
 
