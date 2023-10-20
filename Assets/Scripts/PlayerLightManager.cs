@@ -118,7 +118,8 @@ public class PlayerLightManager : MonoBehaviour
 
     public void IncreaseLight(float amount)
     {
-        playerLight.intensity += amount;
+        float maxAmount = Mathf.Max(playerLight.intensity + amount, 1);
+        playerLight.intensity = maxAmount;
         playerLight.pointLightOuterRadius = playerLight.intensity * initialOuterRadius;
     }
 

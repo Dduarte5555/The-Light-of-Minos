@@ -12,6 +12,7 @@ TagManager:
   - Exit_final
   - Projetil
   - Tocha
+  - Firepit
   layers:
   - Default
   - TransparentFX

@@ -52,12 +52,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void IncreaseLight()
-    {
-        playerLight.intensity = 1;
-        playerLight.pointLightOuterRadius = playerLight.intensity * initialOuterRadius;
-    }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (isColliding)
@@ -74,8 +68,10 @@ public class PlayerMovement : MonoBehaviour
 
         else if (other.gameObject.CompareTag("Tocha"))
         {
-            IncreaseLight();
+            lightManager.IncreaseLight(1f);
+            ani.SetBool("PlayerHasTorch", true);
             isColliding = true;
+            Debug.Log("TOCHAAA");
         }
 
         else if (other.gameObject.CompareTag("Enemy"))
