@@ -13,12 +13,12 @@ public class Destroy : MonoBehaviour
     }
 
     void Death(){
-        Destroy(objeto);
+        Destroy(objeto);  
     }
 
     void ChangeScene(){
         //Destroy(objeto);
-        SceneManager.LoadScene("Scenes/SampleScene");
+        SceneManager.LoadScene("Scenes/tela_morte");
     }
 
 }

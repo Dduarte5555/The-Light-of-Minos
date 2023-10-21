@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Instrucoes.unity
     guid: dc4063c8429b9c74f870d3940e81616e
+  - enabled: 1
+    path: Assets/Scenes/tela_morte.unity
+    guid: 65864c7f94d08324fa2ef9a06d8d1a9e
   m_configObjects: {}
