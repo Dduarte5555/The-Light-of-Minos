@@ -29,7 +29,9 @@ public class Health : MonoBehaviour
         }
         else if (isPlayer)
         {
-            SceneManager.LoadScene("Scenes/MenuInicial");
+            ani = objeto.GetComponent<Animator>();
+            ani.SetBool("PlayerIsDead",true);
+            //SceneManager.LoadScene("Scenes/MenuInicial");
         }
         else
         {

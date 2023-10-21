@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+  
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -38,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-
+        
         //Debug.Log(movement);
         if (movement != Vector2.zero)
         {
@@ -73,7 +74,8 @@ public class PlayerMovement : MonoBehaviour
 
         else if (other.gameObject.CompareTag("EnemyMaster"))
         {
-            SceneManager.LoadScene(0);
+            //SceneManager.LoadScene(0);
+            ani.SetBool("PlayerIsDead",true);
         }
         else if (other.gameObject.CompareTag("Exit"))
         {
@@ -92,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Health playerHealth = GetComponent<Health>();
 
-            playerHealth.OnHit(1, other.gameObject,other.gameObject);
+            playerHealth.OnHit(1, other.gameObject,this.gameObject);
         }
     }
 }
