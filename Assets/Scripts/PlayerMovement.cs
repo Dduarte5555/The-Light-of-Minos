@@ -88,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
         else if (other.gameObject.CompareTag("Exit_final"))
         {
             SceneManager.LoadScene("Scenes/Sucesso");
-            
+            FindObjectOfType<AudioManager>().Play("VictoryTheme");
         }
     }
 
