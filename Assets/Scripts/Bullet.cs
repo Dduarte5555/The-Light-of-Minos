@@ -15,10 +15,10 @@ public class Bullet : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             Health enemyHealth = other.gameObject.GetComponent<Health>();
-
+            GameObject objeto = other.gameObject; 
             if (enemyHealth != null)
             {
-                enemyHealth.OnHit(1, projetil);
+                enemyHealth.OnHit(1, projetil,objeto);
             }
 
             Destroy(projetil);
