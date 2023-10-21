@@ -19,6 +19,7 @@ public class Destroy : MonoBehaviour
     void ChangeScene(){
         //Destroy(objeto);
         SceneManager.LoadScene("Scenes/tela_morte");
+        FindObjectOfType<AudioManager>().Play("GameOverTheme");
     }
 
 }
