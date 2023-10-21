@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     public GameObject projetil;
     void OnCollisionEnter2D (Collision2D other)
     {
-        if (other.gameObject.CompareTag("Parede"))
+        if (other.gameObject.CompareTag("Parede") || other.gameObject.CompareTag("Firepit"))
         {
             Destroy(projetil);
         }

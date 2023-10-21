@@ -36,23 +36,17 @@ AnimationClip:
       value: {fileID: 987855319, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
     - time: 0.93333334
       value: {fileID: -1691528892, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - time: 1.0666667
-      value: {fileID: -2143719329, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - time: 1.2
-      value: {fileID: -1691528892, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - time: 1.3333334
-      value: {fileID: -1691528892, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - time: 1.4666667
+    - time: 1.0833334
       value: {fileID: -2085501620, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - time: 1.6
+    - time: 1.25
       value: {fileID: 889968568, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - time: 1.7
+    - time: 1.4166666
       value: {fileID: 252177537, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - time: 1.8333334
+    - time: 1.55
       value: {fileID: 471182031, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - time: 1.9666667
+    - time: 1.7
       value: {fileID: 1460901095, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - time: 2.1
+    - time: 1.8333334
       value: {fileID: -288399920, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
     attribute: m_Sprite
     path: 
@@ -84,9 +78,6 @@ AnimationClip:
     - {fileID: -1093734953, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
     - {fileID: 987855319, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
     - {fileID: -1691528892, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - {fileID: -2143719329, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - {fileID: -1691528892, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
-    - {fileID: -1691528892, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
     - {fileID: -2085501620, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
     - {fileID: 889968568, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
     - {fileID: 252177537, guid: 877bdeefea48fbe41a17eae67c7cd128, type: 3}
@@ -98,7 +89,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 2.1166666
+    m_StopTime: 1.85
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -117,4 +108,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 1.5666667
+    functionName: SkeletonAttackAudio
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 8f817e50777189840a5217956d458eff, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.6833333
+    functionName: AttackEnded
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 8f817e50777189840a5217956d458eff, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

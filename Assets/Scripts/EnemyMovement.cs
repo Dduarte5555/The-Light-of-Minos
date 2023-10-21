@@ -8,6 +8,13 @@ public class EnemyMovement : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
+    public AudioSource audioSourceSkeletonWalking;
+    public AudioSource audioSourceSkeletonAttack;
+
+    public string enemyType;
+
+    public bool hasAttacked;
+
     Animator ani;
 
     void Start()
@@ -26,26 +33,54 @@ public class EnemyMovement : MonoBehaviour
 
         }
         direction.Normalize();
-        movement = direction;
+        
         ani.SetFloat("Angle", angle);
+
+
 
         var dis = Vector3.Distance(player.position , transform.position);
         if (dis < 6){
             ani.SetBool("IsAttacking",true);
+            direction = new Vector3(0, 0, 0);
         }
-        else{
-            ani.SetBool("IsAttacking",false);
+
+        if (ani.GetBool("IsAttacking"))
+        {
+            if (enemyType == "skeleton")
+            {
+                audioSourceSkeletonWalking.Stop();
+            }
+            direction = new Vector3(0, 0, 0);
         }
-        
+
+        movement = direction;
     }
 
     private void FixedUpdate()
     {
-        moveCharacter(movement);
+        MoveCharacter(movement);
     }
     
-    void moveCharacter(Vector2 direction)
+    void MoveCharacter(Vector2 direction)
     {
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
+    }
+
+    public void AttackEnded()
+    {
+        ani.SetBool("IsAttacking", false);
+        audioSourceSkeletonWalking.Play();
+    }
+    public IEnumerator SkeletonAttackAudio()
+    {
+        if (!hasAttacked)
+        {
+            hasAttacked = true;
+            audioSourceSkeletonAttack.Play();
+
+            yield return new WaitForSeconds(1);
+
+            hasAttacked = false;
+        }
     }
 }

@@ -89,7 +89,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.41666666
-    functionName: PlayAudio
+    functionName: Attack
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: b8c2e6bcfa3604fd585ada2e61de53bb, type: 3}
     floatParameter: 0
