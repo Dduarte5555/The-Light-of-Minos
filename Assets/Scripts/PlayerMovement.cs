@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     public Camera cam;
+    public AudioSource audioSourceRun;
+    public AudioSource audioSourceLabareda;
     Animator ani;
 
     private PlayerLightManager lightManager;
@@ -47,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            audioSourceRun.Play();
             ani.SetBool("PlayerIsMoving", false);
         }
     }
@@ -58,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             lightManager.IncreaseLight(0.1f);
+            audioSourceLabareda.Play();
         }
 
         else if (other.gameObject.CompareTag("Tocha"))

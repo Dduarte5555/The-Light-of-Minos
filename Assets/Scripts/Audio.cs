@@ -5,21 +5,23 @@ using UnityEngine;
 public class Audio : MonoBehaviour
 {
 
-    public AudioSource aud;
+    public AudioSource audioSourceAttack;
+    
+    Animator ani;
+
     // Start is called before the first frame update
     void Start()
     {
-        aud = GetComponent<AudioSource>();
+        ani = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
-    public void PlayAudio()
+    public void Attack()
     {
-        aud.Play();
+        audioSourceAttack.Play();
     }
 }

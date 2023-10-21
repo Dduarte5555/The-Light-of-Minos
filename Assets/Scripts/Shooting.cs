@@ -44,6 +44,14 @@ public class Shooting : MonoBehaviour
         
     }
 
+    public static float FindDegree(float x, float y)
+    {
+        float value = (float)((Mathf.Atan2(x, y) / Math.PI) * 180f);
+        if (value < 0) value += 360f;
+
+        return value;
+    }
+
     public IEnumerator OnAttackAnimationFinished()
     {
         if (!hasShot) {
@@ -54,8 +62,15 @@ public class Shooting : MonoBehaviour
             // Calculate the position of the bullet spawn point, 1 meter from the player in the direction of the mouse.
             Vector3 bulletSpawnPosition = player.position + direction * 1f;
 
+            // Get mouse angle
+            Vector2 lookDir = mousePos - player.position;
+
+            float angle = FindDegree(lookDir.x, lookDir.y);
+
+            Quaternion rotation = Quaternion.Euler(0, 0, -angle);
+
             // Instantiate the bullet at the calculated position.
-            GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPosition, Quaternion.identity);
+            GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPosition, rotation);
 
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
