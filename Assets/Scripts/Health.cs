@@ -16,9 +16,11 @@ public class Health : MonoBehaviour
     public GameObject thisGameObject;
 
     public UnityEvent<GameObject> OnHitWithReference;
+    
 
-    public void OnHit(int damage, GameObject sender)
+    public void OnHit(int damage, GameObject sender, GameObject objeto)
     {
+        Animator ani;
         currentHealth -= damage;
 
         if (currentHealth > 0)
@@ -27,11 +29,15 @@ public class Health : MonoBehaviour
         }
         else if (isPlayer)
         {
-            SceneManager.LoadScene("Scenes/MenuInicial");
+            ani = objeto.GetComponent<Animator>();
+            ani.SetBool("PlayerIsDead",true);
+            //SceneManager.LoadScene("Scenes/MenuInicial");
         }
         else
         {
-            Destroy(thisGameObject);
+            ani = objeto.GetComponent<Animator>();
+            ani.SetBool("IsDead",true);
+            //Destroy(thisGameObject);
         }
     } 
 }
