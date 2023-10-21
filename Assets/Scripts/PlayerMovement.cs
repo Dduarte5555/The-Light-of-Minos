@@ -61,8 +61,14 @@ public class PlayerMovement : MonoBehaviour
 
         else if (other.gameObject.CompareTag("Tocha"))
         {
-            lightManager.IncreaseLight(1f);
+            TochaEvent tocha = other.gameObject.GetComponent<TochaEvent>();
+            if (!tocha.HasLight()) 
+            {
+                return;
+            }
+            lightManager.IncreaseLight(0.1f);
             ani.SetBool("PlayerHasTorch", true);
+            tocha.DisableLight();
         }
 
         else if (other.gameObject.CompareTag("EnemyMaster"))
