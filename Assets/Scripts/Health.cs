@@ -16,12 +16,28 @@ public class Health : MonoBehaviour
     public GameObject thisGameObject;
 
     public UnityEvent<GameObject> OnHitWithReference;
+
+    public HealthBar healthBar;
+
+    void Start()
+    {
+        if (isPlayer)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+        }
+        
+    }
     
 
     public void OnHit(int damage, GameObject sender, GameObject objeto)
     {
         Animator ani;
         currentHealth -= damage;
+
+        if (isPlayer)
+        {
+            healthBar.SetHealthBar(currentHealth);
+        }
 
         if (currentHealth > 0)
         {
