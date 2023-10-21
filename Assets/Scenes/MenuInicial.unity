@@ -1340,7 +1340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
       propertyPath: sounds.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
       propertyPath: sounds.Array.data[1].clip
@@ -1415,6 +1415,18 @@ PrefabInstance:
       value: GameOverTheme
       objectReference: {fileID: 0}
     - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
+      propertyPath: sounds.Array.data[9].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7a017c19b40475a4ea0c8cf8251db085, type: 3}
+    - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
+      propertyPath: sounds.Array.data[9].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
+      propertyPath: sounds.Array.data[9].name
+      value: VictoryTheme
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
       propertyPath: sounds.Array.data[0].pitch
       value: 2
       objectReference: {fileID: 0}
@@ -1451,6 +1463,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
+      propertyPath: sounds.Array.data[9].pitch
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
       propertyPath: sounds.Array.data[0].volume
       value: 0.5
       objectReference: {fileID: 0}
@@ -1484,6 +1500,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
       propertyPath: sounds.Array.data[8].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108386510464962344, guid: f74f95988a105f04686f62c6d9c10c0c, type: 3}
+      propertyPath: sounds.Array.data[9].volume
       value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
