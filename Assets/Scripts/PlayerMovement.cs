@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     public Camera cam;
     public AudioSource audioSourceRun;
     public AudioSource audioSourceLabareda;
+    public AudioSource audioSourcePitfireOff;
+    public AudioSource audioSourcePlayerDamage;
+    public SpriteRenderer playerSprite;
     Animator ani;
 
     private PlayerLightManager lightManager;
@@ -64,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
             audioSourceLabareda.Play();
         }
 
-        else if (other.gameObject.CompareTag("Tocha"))
+        else if (other.gameObject.CompareTag("Firepit"))
         {
             TochaEvent tocha = other.gameObject.GetComponent<TochaEvent>();
             if (!tocha.HasLight()) 
@@ -74,6 +77,7 @@ public class PlayerMovement : MonoBehaviour
             lightManager.IncreaseLight(0.1f);
             ani.SetBool("PlayerHasTorch", true);
             tocha.DisableLight();
+            audioSourcePitfireOff.Play();
         }
 
         else if (other.gameObject.CompareTag("EnemyMaster"))
@@ -99,6 +103,21 @@ public class PlayerMovement : MonoBehaviour
             Health playerHealth = GetComponent<Health>();
 
             playerHealth.OnHit(1, other.gameObject,this.gameObject);
+
+            StartCoroutine(FlashDamage());
+
+            audioSourcePlayerDamage.Play();
         }
+    }
+
+    public IEnumerator FlashDamage()
+    {
+        playerSprite.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        playerSprite.color = Color.white;
+        yield return new WaitForSeconds(0.1f);
+        playerSprite.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        playerSprite.color = Color.white;
     }
 }
