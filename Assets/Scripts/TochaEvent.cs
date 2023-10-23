@@ -26,9 +26,9 @@ public class TochaEvent : MonoBehaviour
         // Check if the entering object has a specific tag or component.
         if (other.CompareTag("Projetil"))
         {
-            // Spawn a light when the player enters the circle.
+            // Spawn a light when the bullet enters the circle.
             SpawnLight();
-            tocha.tag = "Tocha";
+            Destroy(other.gameObject);
         }
     }
     void SpawnLight()

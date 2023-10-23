@@ -12,7 +12,6 @@ public class Health : MonoBehaviour
     private int currentHealth, maxHealth;
     [SerializeField] 
     private bool isPlayer;
-    public AudioSource audioSourceLabareda;
 
     public GameObject thisGameObject;
 
@@ -34,7 +33,6 @@ public class Health : MonoBehaviour
     {
         Animator ani;
         currentHealth -= damage;
-        audioSourceLabareda.Play();
 
         if (isPlayer)
         {

@@ -237,6 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projetil: {fileID: 7457493429075010394}
+  audioSourceFireHit: {fileID: 0}
 --- !u!95 &5454969152304950263
 Animator:
   serializedVersion: 5
