@@ -38,7 +38,7 @@ public class EnemyMovement : MonoBehaviour
         ani.SetFloat("Angle", angle);
 
         var dis = Vector3.Distance(player.position , transform.position);
-        if (dis < 5.5){
+        if (dis < 6){
             ani.SetBool("IsAttacking",true);
             //direction = new Vector3(0, 0, 0);
         }
