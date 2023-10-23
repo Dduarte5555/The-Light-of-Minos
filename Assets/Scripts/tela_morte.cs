@@ -11,7 +11,7 @@ public class tela_morte : MonoBehaviour
     {
         SceneManager.LoadScene("Scenes/SampleScene");
         if(IsVictory){
-            FindObjectOfType<AudioManager>().Stop("GameOverTheme");
+            FindObjectOfType<AudioManager>().Stop("VictoryTheme");
         }
         else{
             FindObjectOfType<AudioManager>().Stop("GameOverTheme");
