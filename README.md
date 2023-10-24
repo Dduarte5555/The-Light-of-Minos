@@ -22,3 +22,11 @@ Scary6 - https://freesound.org/people/Alexhanj/sounds/460462/
 Opening - https://freesound.org/people/Jagadamba/sounds/270239/
 
 GameOverTheme - https://freesound.org/people/ClementPanchout/sounds/573379/
+
+### Main character and Enemies
+
+Player - https://pixel-poem.itch.io/dungeon-hero
+
+Esqueleto - https://jesse-m.itch.io/skeleton-pack
+
+Morbidor - https://darkpixel-kronovi.itch.io/undead-executioner
